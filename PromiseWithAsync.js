@@ -11,6 +11,8 @@ function createPromise() {
 
       if (num % 2 == 0) {
         resolve(num);
+        // resolve(num,10,20)
+        // always will set first value to promise value
       } else {
         reject(num);
       }
